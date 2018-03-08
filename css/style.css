@@ -1,27 +1,29 @@
 body{
-   font-family: sans-serif; 
+   font-family: 'Ubuntu', sans-serif;
 }
 #block-body{
     width: auto;
     height: auto;
-    border: 1px solid black;
-    margin: 0 auto;
+    margin: 0;
 }
 #block-header{
     width: auto;
     height: 60px;
-    border: 1px solid black;               
 }
 #block-category{
     width: auto;
-    height: 40px;
-    border: 1px solid black;
+    height: auto;
+    text-align: center;
+    border-top: 1px solid #E1E3DF;
+    border-bottom: 1px solid #E1E3DF;
+    
 }
 #block-slider{
-    width: auto;
-    height: 150px;
+    width: auto;  
+    height: 250px;
     border: 1px solid black;
     margin: 10px 20px 0 20px;
+    
 }
 #block-about{
     width: auto;
@@ -107,4 +109,43 @@ form{
     display: inline;
     margin: 10px;
 }
+#block-top-menu-right ul a{
+    border: 1px solid;
+    border-radius: 3px;
+    color: #E55400;
+    font-size: 14px;
+    padding: 8px;
+    text-decoration: none;
+}
+#block-max-width{
+    margin: 0 auto;
+    max-width: 1330px;
+/*    border: 1px solid black;*/
+    padding: 0 auto 0 auto;
+}
+
+#block-category ul{
+    vertical-align: middle;
+    margin: 10px auto;
+}
+#block-category ul li{
+    display: inline;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 14px;
+    
+}
+#block-category ul li a{
+    text-decoration: none;
+    color: #525252;
+}
+#block-category ul a:hover{
+    text-decoration: none;
+    color: #E55400;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #E55400;
+}
+
+
+
 
