@@ -1,3 +1,6 @@
+body{
+   font-family: sans-serif; 
+}
 #block-body{
     width: auto;
     height: auto;
@@ -6,8 +9,8 @@
 }
 #block-header{
     width: auto;
-    height: 70px;
-    border: 1px solid black;
+    height: 60px;
+    border: 1px solid black;               
 }
 #block-category{
     width: auto;
@@ -46,21 +49,62 @@
 }
 
 #block-up{
-
     width: auto;
     height: 50px;
     margin: 20px 0 0 0;
     background-color: #485769;
 }
 #block-contacts{
-
     width: auto;
     height: 200px;
     background-color: #232F3E;
 }
 #authors{
-
     width: auto;
     height: 150px;
     background-color: #131A22;
 }
+#header-top-menu li{
+    font: 20px sans-serif;
+    float: left;
+    padding: 10px 20px;
+    margin: 8px 0;
+}
+input[type=text], select {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form{
+    display: inline;
+    float: left;
+}
+#block-top-menu-right{
+    display: table;
+    width: auto;
+    height: 60px;
+    float: right;
+}
+#block-top-menu-right ul{
+    display: table-cell;
+    vertical-align: middle;
+}
+#block-top-menu-right ul li{
+    display: inline;
+    margin: 10px;
+}
+
